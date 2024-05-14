@@ -2,6 +2,7 @@ body {
     background-color: rgba(245, 222, 179, 0.287);
     font-family: monospace;
     font-size: 15px;
+    margin: 0px;
 }
 
 .heading h1 {
@@ -62,6 +63,48 @@ body {
 .classic {
     border: 1px solid black;
     margin-top: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.146);
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    position: relative; /* Add this line */
+}
+
+.dropbtn:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3.5px;
+}
+
+.nav-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: solid 0.5px;
+    border-radius: 5px;
+    border-top: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    text-align: center;
+}
+
+.marquee {
+    color: black;
+    /* direction: ltr; */
+    
 }
 
 
